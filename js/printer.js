@@ -42,7 +42,7 @@ $.each(AltrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station
 
   var stationHTML = '<div class="station">'
   stationHTML += '<div class="circle' + CSS + '"></div>'
-  stationHTML += '<div class="name">' + station.getname() + '</div>'
+  stationHTML += '<div class="name">' + station.getName() + '</div>'
   stationHTML += '</div>'
 
   $('#stations').append(stationHTML)
