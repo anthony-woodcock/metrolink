@@ -36,7 +36,7 @@ var stations = $.each(stationNames,function (stationIndex, stationName) {
 
 var tram = new Tram(altrinchamToAshtonUnderLyne, altrinchamToAshtonUnderLyne.getStations()[0])
 
-$.each(AltrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station){
+$.each(altrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station){
 
   var stationHTML = '<div class="station">'
   stationHTML += '<div class="circle' + CSS + '"></div>'
