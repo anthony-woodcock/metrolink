@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
 }
 
 .station {
@@ -27,3 +27,4 @@ body {
   float: left;
   font-weight: bold;
 }
+
