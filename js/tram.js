@@ -18,6 +18,11 @@ function Tram (route, startingStation) {
             }
             this._currentStation = routeStations[nextStationIndex]
             return "now arriving at : " + this._currentStation.getName() 
-        }
+        },
+       reset: function () {
+    this._currentStation = this._route.getStations()[0]
+} 
     
 }
+
+
