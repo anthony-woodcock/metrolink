@@ -39,7 +39,7 @@ var tram = new Tram(altrinchamToAshtonUnderLyne, altrinchamToAshtonUnderLyne.get
 $.each(altrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station){
 
   var stationHTML = '<div class="station">'
-  stationHTML += '<div class="circle' + CSS + '"></div>'
+  stationHTML += '<div class="circle"></div>'
   stationHTML += '<div class="name">' + station.getName() + '</div>'
   stationHTML += '</div>'
 
