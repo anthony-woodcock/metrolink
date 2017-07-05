@@ -31,14 +31,14 @@ var altrinchamToAshtonUnderLyne = new Route ()
 
 var stations = $.each(stationNames,function (stationIndex, stationName) {
     
- altrinchamToAshtonUnderLyne.addStaion(new Station(stationName))
+ altrinchamToAshtonUnderLyne.addStation(new Station(stationName))
 }) 
 
-var tram = new Tram(altrinchamToAshtonUnderLyne, altrinchamToAshtonUnderLyne.getStations()[0])
-<<<<<<< HEAD
-=======
 
-$.each(altrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station){
+var tram = new Tram(altrinchamToAshtonUnderLyne, altrinchamToAshtonUnderLyne.getStations()[0])
+
+
+$.each(AltrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station){
 
   var stationHTML = '<div class="station">'
   stationHTML += '<div class="circle' + CSS + '"></div>'
@@ -47,4 +47,4 @@ $.each(altrinchamToAshtonUnderLyne.getStations(), function(stationIndex, station
 
   $('#stations').append(stationHTML)
 })
->>>>>>> 5914f89351a053a1dee71c0530de4f18e18c52d6
+
